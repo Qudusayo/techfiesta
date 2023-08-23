@@ -33,8 +33,8 @@ export default function Footer() {
               textAlign={["center", "center", "left"]}
             >
               tech
-              <span
-                style={{
+              <Typography
+                sx={{
                   display: "inline-block",
                   color: "transparent",
                   backgroundImage:
@@ -44,7 +44,7 @@ export default function Footer() {
                 }}
               >
                 Fiesta
-              </span>
+              </Typography>
             </Typography>
 
             <Typography sx={{ color: "white" }}>

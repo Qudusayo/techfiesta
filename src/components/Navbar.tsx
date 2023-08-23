@@ -44,8 +44,8 @@ export default function Navbar() {
           textAlign={["center", "center", "left"]}
         >
           tech
-          <span
-            style={{
+          <Typography
+            sx={{
               display: "inline-block",
               color: "transparent",
               backgroundImage:
@@ -55,7 +55,7 @@ export default function Navbar() {
             }}
           >
             Fiesta
-          </span>
+          </Typography>
         </Typography>
 
         <Box display={["none", "flex", "flex"]} alignItems={"center"} gap={4}>

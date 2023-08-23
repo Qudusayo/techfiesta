@@ -52,8 +52,8 @@ export default function Home() {
               }}
             >
               tech
-              <span
-                style={{
+              <Typography
+                sx={{
                   display: "inline-block",
                   color: "transparent",
                   backgroundImage:
@@ -63,7 +63,7 @@ export default function Home() {
                 }}
               >
                 Fiesta
-              </span>
+              </Typography>
             </Box>
           </Typography>
           <Typography

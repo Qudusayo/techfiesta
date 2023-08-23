@@ -54,8 +54,8 @@ export default function Login() {
             href={"/"}
           >
             tech
-            <span
-              style={{
+            <Typography
+              sx={{
                 display: "inline-block",
                 color: "transparent",
                 backgroundImage:
@@ -65,7 +65,7 @@ export default function Login() {
               }}
             >
               Fiesta
-            </span>
+            </Typography>
           </Typography>
         </Box>
         <Box
