@@ -23,7 +23,7 @@ interface SignInFormElement extends HTMLFormElement {
 /**
  * This template uses [`Inter`](https://fonts.google.com/specimen/Inter?query=inter) font.
  */
-export default function JoySignInSideTemplate() {
+export default function Login() {
   return (
     <Container>
       <Box
